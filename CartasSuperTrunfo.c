@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdio.h>
 
 int main() {
     // Carta 1 
@@ -76,6 +77,8 @@ int main() {
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
+    printf("Densidade Populacional  %.2f  hab/km² \n", populacao1 / area1);
+    printf("PIB per Capita: %.2f reais\n ", pib1 / populacao1);
 
     // Exibição da Carta 2
     printf("\nCarta 2:\n");
@@ -86,7 +89,9 @@ int main() {
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
-
-    return 0;
+    printf("Densidade Populacional  %.2f  hab/km² \n", populacao2 / area2);
+    printf("PIB per Capita: %.2f reais\n ", pib2 / populacao2);
+    
+    
+return 0;
 }
-
